@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eff4fd;
+}
+.sidebar{
+    height: 80%;
+    width: 140px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 20px;
+  color: white;
+
+}
+
+.intro{
+    position: relative;
+    left:200px;
+    top: 60px;
+    right: 85px;
+}
+h3{
+    position: relative;
+    right: 200px;
+    text-align: justify;
+
+}
+.contact{
+    position: relative;
+    right: 200px;
+    text-align: justify;  
+}
