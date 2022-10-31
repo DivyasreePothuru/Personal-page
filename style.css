@@ -5,12 +5,13 @@
 }
 body{
     background-color: #eff4fd;
+    
 }
 .sidebar{
     height: 80%;
     width: 140px;
     position: fixed;
-    z-index: 1;
+   
     top: 0;
     left: 0;
     background-color: #111;
@@ -25,6 +26,14 @@ body{
     top: 60px;
     right: 85px;
 }
+.input{
+
+    
+    border: 3px solid black;
+    border-radius: 70%;
+    height: 30px;
+    width: 30px;
+}
 h3{
     position: relative;
     right: 200px;
@@ -36,3 +45,9 @@ h3{
     right: 200px;
     text-align: justify;  
 }
+
+@media  screen and (min-width: 576px) {
+    body {
+      background-color: lightblue;
+    }
+  }
